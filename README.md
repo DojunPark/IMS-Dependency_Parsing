@@ -1,7 +1,8 @@
 # IMS-Dependency_Parsing
-This is a project in the Master's course "Statistical Dependency Parsing" at Winter Semester 22/23 at the University of Stuttgart.
-This follows an Arc-Standard approach with a neural classifier.
-
-### How to run?
-`python run --train_file wsj_train.conll06 --dev_file wsj_dev.conll06.gold --test_file wsj_test.conll06.blind --save wsj_test.conll06.pred --epoch 5`
+- This is a project in the Master's course "Statistical Dependency Parsing" at Winter Semester 22/23 at the University of Stuttgart.
+- This parser follows an Arc-Standard approach along with a neural classifier.
+- 
+`python run --train_file xxx --dev_file xxx --test_file xxx --save xxx --epoch n`
 - Run the run.py with arguments of training file, dev file, test file, and the number of epochs as an argument.
+
+- This parser achieved the UAS scores of 77.56 and 78.41 for English and German, respectably.
